@@ -24,7 +24,8 @@ steps:
 
 - script: |
     python -m a=1
-    pip install -r requirements.txt
+    a+a
+    print(a)
   displayName: 'Install dependencies'
 
 
