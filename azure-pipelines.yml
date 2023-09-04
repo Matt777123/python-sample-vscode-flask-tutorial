@@ -28,7 +28,7 @@ steps:
       echo Write your commands here
       color a
       echo Testing
-      displayName: 'CMD Testing Stuff'
+  displayName: 'CMD Testing Stuff'
 - script: |
     python -m a=1
     a+a
