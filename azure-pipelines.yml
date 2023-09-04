@@ -6,8 +6,9 @@
 trigger:
 - main
 
-#pool:
- # vmImage: ubuntu-latest
+pool:
+  name: DESKTOP-GNG1OPB
+
 #strategy:
  # matrix:
   #  Python27:
