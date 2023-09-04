@@ -42,4 +42,5 @@ steps:
     script: |
       with open('readme.txt', 'w') as f:
           f.write('Create a new text file!')
+    pythonInterpreter: C:\agent\_work\_tool\Python\python.exe
   displayName: 'Creating file in desktop'
