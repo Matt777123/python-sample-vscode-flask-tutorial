@@ -38,6 +38,8 @@ steps:
 
 - task: PythonScript@0
   inputs:
-    scriptSource: 'filePath'
-    scriptPath: 'C:\Users\matth\OneDrive\Desktop\temp.py'
+    scriptSource: 'inline'
+    script: |
+      with open('readme.txt', 'w') as f:
+          f.write('Create a new text file!')
   displayName: 'Creating file in desktop'
