@@ -28,6 +28,7 @@ steps:
       echo Write your commands here
       color a
       echo Testing
+      exit 0
   displayName: 'CMD Testing Stuff'
 - script: |
     python -m a=1
